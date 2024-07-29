@@ -1,0 +1,119 @@
+{
+  "conf_ver": {
+    "info": "配置文件版本，用于判断插件代码是否有大更新",
+    "ver": "1.0"
+  },
+  "proxy": {
+    "info": "对查物价和日志订阅使用代理连接",
+    "enable": false,
+    "url": "socks5://127.0.0.1:1080"
+  },
+  "bot_help": {
+    "info": "机器人帮助文档",
+    "enable": true
+  },
+  "chat_ai": {
+    "info": "ai聊天",
+    "enable": false
+  },
+  "ff_weibo": {
+    "info": "获取FF微博新闻",
+    "enable": true
+  },
+  "house": {
+    "info": "查询空房信息",
+    "enable": true
+  },
+  "item": {
+    "info": "查询物品信息",
+    "enable": true
+  },
+  "logs_dps": {
+    "info": "查询logs分段",
+    "enable": true
+  },
+  "lottery": {
+    "info": "帮你选每周仙人仙彩数字",
+    "enable": true
+  },
+  "market": {
+    "info": "查物价，如果以图片格式回复则use_pic改为true",
+    "enable": true,
+    "use_pic": false,
+    "default_dc": "豆豆柴",
+    "supported_dc": [
+      "陆行鸟",
+      "莫古力",
+      "猫小胖",
+      "豆豆柴"
+    ],
+    "supported_server": [
+      "红玉海",
+      "神意之地",
+      "拉诺西亚",
+      "幻影群岛",
+      "萌芽池",
+      "宇宙和音",
+      "沃仙曦染",
+      "晨曦王座",
+      "白银乡",
+      "白金幻象",
+      "神拳痕",
+      "潮风亭",
+      "旅人栈桥",
+      "拂晓之间",
+      "龙巢神殿",
+      "梦羽宝境",
+      "紫水栈桥",
+      "延夏",
+      "静语庄园",
+      "摩杜纳",
+      "海猫茶屋",
+      "柔风海湾",
+      "琥珀原",
+      "水晶塔",
+      "银泪湖",
+      "太阳海岸",
+      "伊修加德",
+      "红茶川",
+      "黄金谷",
+      "月牙湾",
+      "雪松原"
+    ],
+    "alias": {
+      "鸟": "陆行鸟",
+      "猪": "莫古力",
+      "猫": "猫小胖",
+      "狗": "豆豆柴",
+      "柔风": "柔风海湾"
+    }
+  },
+  "nuannuan": {
+    "info": "本周时尚品鉴作业",
+    "enable": true
+  },
+  "precious": {
+    "info": "帮你选藏宝洞的门",
+    "enable": true
+  },
+  "weather": {
+    "info": "暂时没啥用的测试功能",
+    "enable": false
+  },
+  "dungeon_note": {
+    "info": "查简单副本攻略",
+    "enable": true
+  },
+  "calendar": {
+    "info": "获取FF近期活动日历",
+    "enable": true
+  },
+  "party_finder": {
+    "info": "获取招募版信息",
+    "enable": true
+  },
+  "tarot": {
+    "info": "抽塔罗牌",
+    "enable": true
+  }
+}
